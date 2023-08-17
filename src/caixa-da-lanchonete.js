@@ -51,7 +51,7 @@ class CaixaDaLanchonete {
                 if (metodoDePagamento === 'dinheiro') {
                     total *= 0.95; // 5% de desconto
                 } else if (metodoDePagamento === 'credito') {
-                    total *= 1.03; // 5% de acrescimo
+                    total *= 1.03; // 3% de acrescimo
                 } else if (metodoDePagamento !== 'debito'){
                     return 'Forma de pagamento inválida!'
                 }
